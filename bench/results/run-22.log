@@ -1,0 +1,61 @@
+executor 0xA01eA2169A6ce6069DdE73c61A4C7aB3A263C81E  reactive 0xc444887fb28a08d78509a63260F9662b39EDbC68  loops 22
+
+#1 shock token1→token0 in pool A, block 57215639, gap 60→138 bps
+  ArbExecuted seq 3: 11 Base blocks after origin, gap→60 bps, profit 0.226; RN detect +0s; wall 1918 ms from receipt
+
+#2 shock token0→token1 in pool A, block 57215683, gap 60→142 bps
+  ArbExecuted seq 4: 10 Base blocks after origin, gap→60 bps, profit 0.254; RN detect +0s; wall 1932 ms from receipt
+
+#3 shock token1→token0 in pool A, block 57215729, gap 60→138 bps
+  ArbExecuted seq 5: 7 Base blocks after origin, gap→60 bps, profit 0.226; RN detect +0s; wall 1177 ms from receipt
+
+#4 shock token0→token1 in pool A, block 57215775, gap 60→142 bps
+  ArbExecuted seq 6: 9 Base blocks after origin, gap→60 bps, profit 0.254; RN detect +0s; wall 1599 ms from receipt
+
+#5 shock token1→token0 in pool A, block 57215817, gap 60→138 bps
+  ArbExecuted seq 7: 10 Base blocks after origin, gap→60 bps, profit 0.226; RN detect +0s; wall 1954 ms from receipt
+
+#6 shock token0→token1 in pool A, block 57215862, gap 60→142 bps
+  ArbExecuted seq 8: 8 Base blocks after origin, gap→60 bps, profit 0.254; RN detect +-1s; wall 1584 ms from receipt
+
+#7 shock token1→token0 in pool A, block 57215901, gap 60→138 bps
+  ArbExecuted seq 9: 6 Base blocks after origin, gap→60 bps, profit 0.226; RN detect +-1s; wall 904 ms from receipt
+
+#8 shock token0→token1 in pool A, block 57215941, gap 60→142 bps
+  timeout waiting for LoopClosed
+  ArbExecuted seq 10: 8 Base blocks after origin, gap→60 bps, profit 0.253; RN detect +-1s; wall 1557 ms from receipt
+  timeout waiting for reactive idle
+
+#9 shock token1→token0 in pool A, block 57216579, gap 60→138 bps
+  timeout waiting for ArbExecuted/ArbSkipped
+  timeout waiting for reactive idle
+
+#10 shock token0→token1 in pool A, block 57217345, gap 138→65 bps
+  timeout waiting for ArbExecuted/ArbSkipped
+  timeout waiting for reactive idle
+
+#11 shock token1→token0 in pool A, block 57218115, gap 65→133 bps
+  ArbExecuted seq 11: 8 Base blocks after origin, gap→60 bps, profit 0.198; RN detect +0s; wall 1332 ms from receipt
+
+#12 shock token0→token1 in pool A, block 57218153, gap 60→142 bps
+  ArbExecuted seq 12: 9 Base blocks after origin, gap→60 bps, profit 0.253; RN detect +0s; wall 1607 ms from receipt
+
+#13 shock token1→token0 in pool A, block 57218198, gap 60→138 bps
+  ArbExecuted seq 13: 7 Base blocks after origin, gap→60 bps, profit 0.227; RN detect +-1s; wall 1213 ms from receipt
+
+#14 shock token0→token1 in pool A, block 57218237, gap 258→143 bps
+  ArbExecuted seq 15: 11 Base blocks after origin, gap→60 bps, profit 0.261; RN detect +0s; wall 1891 ms from receipt
+
+#15 shock token1→token0 in pool A, block 57218282, gap 264→138 bps
+  ArbExecuted seq 17: 9 Base blocks after origin, gap→60 bps, profit 0.228; RN detect +0s; wall 1550 ms from receipt
+
+#16 shock token0→token1 in pool A, block 57218326, gap 258→143 bps
+  ArbExecuted seq 19: 8 Base blocks after origin, gap→60 bps, profit 0.261; RN detect +-1s; wall 1533 ms from receipt
+
+#17 shock token1→token0 in pool A, block 57218369, gap 264→138 bps
+  ArbExecuted seq 21: 9 Base blocks after origin, gap→60 bps, profit 0.228; RN detect +0s; wall 1667 ms from receipt
+
+#18 shock token0→token1 in pool A, block 57218418, gap 59→143 bps
+  timeout waiting for LoopClosed
+  ArbExecuted seq 23: 10 Base blocks after origin, gap→60 bps, profit 0.260; RN detect +0s; wall 1570 ms from receipt
+Terminated
