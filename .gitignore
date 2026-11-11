@@ -1,0 +1,7 @@
+.secrets/
+out/
+cache/
+broadcast/
+lib/
+.env
+bench/node_modules/
