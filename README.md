@@ -2,7 +2,7 @@
 
 **Track:** Every Second Counts (time-sensitive DeFi on Base Sepolia).
 
-**Demo video (64 s):** [`docs/video/reflexarb-demo.mp4`](docs/video/reflexarb-demo.mp4) · **Median loop: 1.6 s** from the origin swap to the executed arbitrage over 21 live loops.
+**Demo video (2:16, narrated):** [`docs/video/reflexarb-demo.mp4`](docs/video/reflexarb-demo.mp4) · short silent cut (70 s): [`docs/video/reflexarb-demo-short.mp4`](docs/video/reflexarb-demo-short.mp4) · **Median loop: 1.6 s** from the origin swap to the executed arbitrage over 21 live loops · **still live on 25 Nov 2026** (1.2 s).
 
 ![the loop](docs/video/architecture.png)
 
@@ -97,6 +97,13 @@ Every loop with transaction links (Basescan for the executor, Reactscan for the 
 [`bench/results/loops.md`](bench/results/loops.md); raw data: [`bench/results/summary.json`](bench/results/summary.json).
 Loops 1–2 show `skipped`: the previous deployment was still subscribed to the same pools and closed the gap first
 (see the notes at the end).
+
+**Re-checked on 2026-11-25**, two weeks after deployment, with the same contracts: a new gap (seq 25, 137 bps) was
+closed to 60 bps 6 Base blocks (1.2 s) after the origin swap, and `GapDetected` landed on Lasna in the same second —
+origin block 63478425, [ArbExecuted 0x7cf587e1…](https://sepolia.basescan.org/tx/0x7cf587e174a7612e302eb3fda954efdc8b572dde29f3333d0829be9ed0ecd2fd),
+[GapDetected 0x14b7fcd5…](https://lasna.reactscan.net/tx/0x14b7fcd51107c59d9acf497044516b74bfd7a17cf0b5e2add513a03d2ee83d20).
+Raw data: [`bench/results/latency-2026-11-25T14-39-18-658Z.json`](bench/results/latency-2026-11-25T14-39-18-658Z.json).
+The reactive contract still holds 4.43 lREACT, enough for about 90 more loops, so judges can trigger one themselves.
 
 A sample loop, end to end (seq 9):
 - origin swap on Base Sepolia — block 57215901, [0xbaac9d07…](https://sepolia.basescan.org/tx/0xbaac9d0798eb7665fa43c60499669221dd348b18ff34a1a0952074c4c31cf78d);
